@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    margin-top: 110px;
+}
+
 section{
     position: relative;
     width: 100%;
@@ -21,13 +25,14 @@ section{
 }
 
 header{
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(172, 171, 171);
 }
 
 header .logo{
@@ -60,7 +65,7 @@ header .nav a:hover{
 
 .content .info h2{
     color: rgb(80, 78, 78);
-    font-size: 55px;
+    font-size: 67px;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
@@ -72,13 +77,13 @@ header .nav a:hover{
 
 .content .info h2 span{
     color: rgb(80, 78, 78);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     margin-left: 20px;
 }
 
 .content .info p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 450;
     margin-bottom: 40px;
     margin-left: 300px;
@@ -181,18 +186,18 @@ label{
     }
 
     .content .info h2{
-        font-size: 40px;
+        font-size: 50px;
         line-height: 50px;
         margin-left: 100px;
     }
 
     .content .info h2 span{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
     }
 
     .content .info p{
-        font-size: 18px;
+        font-size: 15px;
         margin-left: 110px;
         margin-bottom: 50px;
     }
@@ -200,18 +205,18 @@ label{
 
 @media (max-width: 560px){
     .content .info h2{
-        font-size: 30px;
+        font-size: 40px;
         line-height: 40px;
         margin-left: 40px;
     }
 
     .content .info h2 span{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600;
     }
 
     .content .info p{
-        font-size: 18px;
+        font-size: 14px;
         margin-left: 50px;
         margin-bottom: 50px;
     }
