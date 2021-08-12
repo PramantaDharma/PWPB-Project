@@ -84,7 +84,7 @@ header .nav a:hover{
 }
 
 .content .info p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 450;
     margin-bottom: 40px;
     margin-left: 300px;
@@ -193,7 +193,7 @@ label{
     }
 
     .content .info h2 span{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 600;
     }
 
@@ -212,12 +212,12 @@ label{
     }
 
     .content .info h2 span{
-        font-size: 20px;
+        font-size: 34px;
         font-weight: 600;
     }
 
     .content .info p{
-        font-size: 14px;
+        font-size: 15px;
         margin-left: 50px;
         margin-bottom: 50px;
     }
